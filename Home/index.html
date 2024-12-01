@@ -11,6 +11,9 @@
             background-color: #121212;
             color: #f5f5f5;
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         header {
             padding: 20px;
@@ -39,10 +42,21 @@
             transform: scale(1.05);
         }
         footer {
-            margin-top: 40px;
+            margin-top: auto;
             padding: 20px;
             border-top: 1px solid #333;
-            font-size: 0.9rem;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        footer a img {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+        footer a img:hover {
+            transform: scale(1.2);
         }
     </style>
 </head>
@@ -60,7 +74,12 @@
         <a href="https://toastedbutter0.github.io/2b2tpe/2b2tpeWorldMap/2023-NoShadows/index.html">2023</a>
     </nav>
     <footer>
-        &copy; 2024 Team Toaster. All rights reserved.
+        <a href="#link1"><img src="https://2b2tatlas.com/src/images/wiki.png" alt="https://2b2tpe.miraheze.org/wiki/Main_Page"></a>
+        <a href="#link2"><img src="https://cdn.discordapp.com/icons/959663200037662812/d0dbb8e127e3cb7246922f6c077335b2.jpg?size=4096" alt="https://discord.gg/zUTB54E6pb"></a>
+        <a href="#link3"><img src="https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fign.gg" alt="https://ign.gg"></a>
+        <a href="#link4"><img src="https://cdn.discordapp.com/icons/473676014489305088/7118cdaec20e3c27e9a9325a5781f413.jpg?size=4096" alt="https://discord.gg/udm8MZj"></a>
+        <a href="#link5"><img src="https://dunb17ur4ymx4.cloudfront.net/webstore/logos/f49e37178c1c90dee69dc0a9c81cff84e241120a.png" alt="https://store.ign.gg"></a>
+        <a href="#link6"><img src="https://www.youtube.com/s/desktop/ceaca137/img/logos/favicon_144x144.png" alt="https://www.youtube.com/@hemuli5407"></a>
     </footer>
 </body>
 </html>
